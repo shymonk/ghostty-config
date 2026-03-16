@@ -1,0 +1,51 @@
+# Solarized Dark Theme (matching macOS Terminal)
+background = 002b36
+foreground = 839496
+
+# Solarized Dark ANSI Colors
+palette = 0=#073642
+palette = 1=#dc322f
+palette = 2=#859900
+palette = 3=#b58900
+palette = 4=#268bd2
+palette = 5=#d33682
+palette = 6=#2aa198
+palette = 7=#eee8d5
+
+# Solarized Dark Bright Colors
+palette = 8=#002b36
+palette = 9=#cb4b16
+palette = 10=#586e75
+palette = 11=#657b83
+palette = 12=#839496
+palette = 13=#6c71c4
+palette = 14=#93a1a1
+palette = 15=#fdf6e3
+
+# Font (matching macOS Terminal)
+font-family = Menlo
+font-size = 14
+
+# Cursor (Solarized Dark uses base0 color)
+cursor-color = 839496
+cursor-style = block
+
+# Color and rendering settings
+background-opacity = 1.0
+unfocused-split-opacity = 1.0
+macos-non-native-fullscreen = false
+
+# Use bright colors for bold text (matching macOS Terminal setting)
+bold-is-bright = true
+
+# Emacs-style split keybindings
+keybind = ctrl+x>2=new_split:down
+keybind = ctrl+x>3=new_split:right
+keybind = ctrl+x>0=close_surface
+keybind = ctrl+x>1=toggle_split_zoom
+keybind = ctrl+x>o=goto_split:next
+
+# Toggle quick terminal
+keybind = ctrl+grave_accent=toggle_quick_terminal
+
+
