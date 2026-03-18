@@ -19,6 +19,15 @@ This is my Ghostty terminal configuration, matching the Solarized Dark theme fro
 - `Ctrl+x 0` - Close current pane
 - `Ctrl+x 1` - Toggle maximize/restore current pane
 - `Ctrl+x o` - Switch to next pane
+- `Ctrl+x ↑` - Focus pane above
+- `Ctrl+x ↓` - Focus pane below
+- `Ctrl+x ←` - Focus pane on the left
+- `Ctrl+x →` - Focus pane on the right
+
+### Tab Navigation
+
+- `Shift+Command+←` - Previous tab
+- `Shift+Command+→` - Next tab
 
 ### Quick Terminal
 
